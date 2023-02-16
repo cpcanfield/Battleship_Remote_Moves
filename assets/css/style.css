@@ -1,0 +1,182 @@
+body {
+	background-color: rgba(145, 162, 131, 0.839);
+	font-family: Verdana, Geneva, sans-serif
+}
+table {
+	border-collapse: collapse;
+	margin-bottom: 0; 
+
+	margin-left: auto;
+	margin-right: auto; 
+
+}
+
+
+.cell{
+width: 55px; 
+height: 55px;
+}
+
+.row_title, .col_title{
+	font-size: 20px; 
+	color:rgb(150, 89, 39); 
+
+}
+
+.col_title{
+	font-family: 'Capuche Trial', sans-serif;
+}
+.row_title{
+	font-family: Righteous; font-style: normal;
+	 font-variant: normal; font-weight: 700; line-height: 26.399999618530273px;
+}
+
+
+table td, th {
+	border: 5px solid rgba(76, 84, 68, 0.839);
+}
+
+
+
+.Submarine {
+	background-image: url('../images/submarine.jpg');
+	background-size:5px 25px;
+}
+
+.Cruiser{
+	background-image: url('../images/cruiser.jpg');
+	background-size:5px 25px;
+}
+.Battleship{
+	background-image: url('../images/battleship.jpg');
+	background-size:5px 25px;
+}
+
+.Destroyer{
+	background-image: url('../images/destroyer.jpg');
+	background-size:5px 25px;
+}
+
+.vessel {
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	height: 90px;
+	width: 150px;
+	margin: 0px 12px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.missed {
+	background-color: rgb(155, 77, 12);
+}
+
+.table-width {
+	width: 300px;
+}
+
+h1, h2{
+	text-align: center;
+
+
+}
+
+h1{
+	font-family: 'Capuche Trial', sans-serif;
+	color:rgb(150, 89, 39); 
+	font-size: 85px;
+}
+h2 { font-family: Righteous; font-size: 35px; font-style: normal;
+	 font-variant: normal; font-weight: 700; line-height: 26.399999618530273px;
+	 color:rgba(76, 84, 68, 0.839);
+}
+
+h3{
+	font-family: 'Capuche Trial', sans-serif;
+	color:rgb(150, 89, 39); 
+	font-size: 60px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+h4{font-family: Righteous; font-size: 20px; font-style: normal;
+	color:  rgba(125, 142, 111, 0.839);
+	font-variant: normal; font-weight: 700; line-height: 26.399999618530273px;
+	text-align: center;
+}
+
+form{
+	text-align: center;
+
+}
+
+.button{
+	background-color: rgb(150, 89, 39);
+	color:  rgb(237, 191, 139);
+	border: none;
+	font-family: Righteous; font-size: 20px; font-style: normal;
+	padding: 10px 20px;
+	text-align: center;
+	border-radius: 25px;
+}
+
+
+label{
+	font-size: 30px; 
+	font-family: 'Capuche Trial', sans-serif;
+	color:rgb(150, 89, 39);
+
+}
+input{
+	background-color: rgb(237, 191, 139);
+	font-family: Righteous; font-size: 20px; font-style: normal;
+	color:rgba(76, 84, 68, 0.839);
+	border: none; 
+}
+#messageBoard{
+	margin-top: 145px;
+	margin-left: 150px; 
+	width: 300px; 
+	height: 550px; 
+	display: inline;
+	background-color: rgb(211, 144, 89);
+	border-radius: 25px;
+	text-align: center;
+}
+
+#game_board{
+	margin-top: 25px;
+
+
+}
+
+.game_page{
+	display: grid; 
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px; 
+	width: 85%; 
+
+}
+#reset_button{
+	margin-bottom: 50px;
+	
+}
+
+#user_name{
+	text-align: center;
+	font-family: 'Capuche Trial', sans-serif;
+	color:rgb(150, 89, 39); 
+	font-size: 40px;
+}
+
+.message{
+	color: rgba(71, 77, 65, 0.839);
+	font-family: 'Poppins', sans-serif;
+}
+
+#button_bar{
+	position: absolute; 
+	left: 150px;
+
+}
+
